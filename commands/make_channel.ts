@@ -51,7 +51,7 @@ export default class MakeChannel extends BaseCommand {
 function channelName(name: string) {
   return new StringBuilder(name)
     .removeExtension()
-    .removeSuffix('notification')
+    .removeSuffix('channel')
     .removeSuffix('provision')
     .pascalCase()
     .suffix(string.pascalCase('Channel'))

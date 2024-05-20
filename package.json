@@ -95,13 +95,12 @@
     }
   },
   "license": "MIT",
-  "repository": "https://github.com/osenco/adonisjs-notifications",
   "eslintConfig": {
     "extends": "@adonisjs/eslint-config/package"
   },
   "prettier": "@adonisjs/prettier-config",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org/"
   },
   "np": {
     "message": "chore(release): %s",
@@ -139,5 +138,14 @@
     "dts": false,
     "sourcemap": true,
     "target": "esnext"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "author": "Osen Concepts",
+  "types": "./build/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/osenco/adonisjs-notifications/issues"
+  },
+  "homepage": "https://github.com/osenco/adonisjs-notifications#readme"
 }

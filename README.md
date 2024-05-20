@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/osenco/adonisjs-notifications/raw/main/.github/banner.png" width="1200px">
+  <img src="https://github.com/osenco/adonisjs-notifications/raw/master/.github/banner.png" width="1200px">
 </div>
 
 
@@ -42,7 +42,7 @@ And then add the path to the `tsconfig.json`
     //...other options,
     "paths": {
      //...other paths,
-      "#notifications/*": ["./app/notifications/*.js"]
+      "#notifications/*": ["./app/notifications/*.js"],
     }
   }
 }
@@ -56,7 +56,7 @@ and `package.json`
   "version": "0.0.0",
   "imports": {
     //...other imports,
-    "#notifications/*": "./app/notifications/*.js"
+    "#notifications/*": "./app/notifications/*.js",
   },
   ...
 }
